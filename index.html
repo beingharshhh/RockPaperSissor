@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class ="score-board">
+      <h1>Rock</h1>
+      <h1>Paper</h1>
+      <h1>Scissors</h1>
+      <div id ="user-label" class="badge">user</div>
+      <div id ="comp-label" class="badge">comp</div>
+      <span id="user-score">0<span>:<span id="computer-score">0<span>
+    </div>
+
+    <div class="result">
+      <p>Paper covers rock.You win!</p>
+       
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="rock.png" alt="Rock Img">
+      </div>
+      <div class="choice" id="p">
+        <img src="paper.png" alt="Paper Img">
+      </div>
+      <div class="choice" id="s">
+        <img src="scissor.png" alt="Scissor Img">
+      </div>
+    </div> 
+
+
+    <div class="rule-box">
+      <div class="rules" id="rules">
+        <button class="close-button" id="closeRules">X</button>
+        <h2>Game Rules</h2>
+        <ul>
+          <li>
+            Rock beats scissors, scissors beats paper and paper beats rock.
+          </li>
+          <li>
+            Agree ahead of time whether you'll count off 'rock, paper, scissors,
+            shoot' or just 'rock, paper, scissors.'
+          </li>
+          <li>
+            Use rock, paper, scissors to settle minor decissions or simply play
+            to pass the time.
+          </li>
+          <li>
+            If both players lay down the same hand, each player lays down
+            another hand.
+          </li>
+        </ul>
+      </div>
+      <div class="rules-button" id="showRules">RULES</div>
+    </div>
+
+    <p id="action-message">Make your move.</p>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
